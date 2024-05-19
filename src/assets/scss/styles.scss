@@ -1,0 +1,11 @@
+@use './base/index' as b;
+@use './utilities/index' as u;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    min-height:100vh;
+    @include u.flex-center;
+}
