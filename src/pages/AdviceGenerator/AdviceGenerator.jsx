@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import "./AdviceGenerator.scss";
-import { fetchAdvice } from "../../service/api";
+import "./adviceGenerator.scss";
+import { fetchAdvice, fetchAdvice_117 } from "../../service/api";
 import AdviceGeneratorHeader from "./AdviceGeneratorHeader";
 import AdviceGeneratorContent from "./AdviceGeneratorContent";
 import AdviceGeneratorButton from "./AdviceGeneratorButton";
@@ -26,7 +26,7 @@ export default function AdviceGenerator() {
   }, [trigger]);
   console.log(advice);
   return (
-    <article>
+    <article className="ag_container">
       <AdviceGeneratorHeader isLoading={isLoading} id={advice.id} />
       <AdviceGeneratorContent isLoading={isLoading} advice={advice.advice} />
       <AdviceGeneratorButton handleAdviceButton={handleAdviceButton} />

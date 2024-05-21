@@ -1,0 +1,9 @@
+@use '../../assets/scss/base/index' as b;
+h1{
+    color: b.$c_primary;
+    font-size:0.8em;
+    letter-spacing: 3.5px ;
+    font-weight: 800;
+    margin-bottom:20px;
+    text-transform: uppercase;
+}

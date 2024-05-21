@@ -6,6 +6,10 @@
     box-sizing:border-box;
 }
 body{
+    color:hsl(193, 38%, 86%);
+    background:b.$bg_main;
+}
+main{
     min-height:100vh;
     @include u.flex-center;
 }

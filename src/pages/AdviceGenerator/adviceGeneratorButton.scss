@@ -1,0 +1,18 @@
+@use '../../assets/scss/base/index' as b;
+button{
+    display: inline-block;
+    border: none;
+    padding:1rem;
+    border-radius: 50%;
+    position:absolute;
+    transform: translate(-50%,50%);
+    bottom:0;
+    background: b.$c_primary;
+
+    &:active{
+        box-shadow: 0 0px 50px b.$c_primary;
+    }   
+    img{
+        display: block;
+    }
+}

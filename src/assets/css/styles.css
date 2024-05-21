@@ -1,1 +1,1 @@
-*{margin:0;padding:0;box-sizing:border-box}body{min-height:100vh;display:flex;justify-content:center;align-items:center}
+@import"https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap";body{font-family:"Manrope",sans-serif}body .ag_container{text-align:center}body .ag_container .ag_content p{font-size:28px;font-weight:800;text-wrap:pretty}*{margin:0;padding:0;box-sizing:border-box}body{color:#cee3e9;background:#1f2632}main{min-height:100vh;display:flex;justify-content:center;align-items:center}
